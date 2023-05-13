@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+  background-color: #f5d0fe;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #ffff;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #000;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #000;
+}
+.input {
+  font-size: 14px;
+  color: #cbd2d9;
+  border: 1px solid #cbd2d9;
+  padding: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: #000;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #d946ef;
+  color: #fff;
+}
